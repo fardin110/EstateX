@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;   
+    font-family: serif; 
+
+}
+ 
+body{
+
+    background-image: url("image/sellbg.png") ;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+  
+  @media screen and (max-width: 1024px) {
+    img.bg {
+      left: 50%;
+      margin-left: -512px;  
+    }
+  }
+.sell{
+    height: 180%;
+    width: 350px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: rgb(255, 255, 255)
+}
+
+.sell h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+
+}
+
+.sell p{
+    font-size: 20px;
+    margin: 15px 0;
+
+}
+
+.sell input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+input[type=text], select{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 6px solid rgb(135, 135, 135);
+    border-radius: 1px;
+    box-sizing: border-box;
+
+}
+.image-preview {
+    width: 300px;
+    min-height: 100px;
+    border: 2px solid #dddddd;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-weight: bold ;
+    color: #cccccc;
+
+}
+.image-preview__image {
+    display: none;
+    width: 100%;
+}
+.sell button{
+    transform: translate(50%,380%);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+}
